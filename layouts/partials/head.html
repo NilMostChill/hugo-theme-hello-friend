@@ -3,9 +3,12 @@
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
 <meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
 <meta name="robots" content="noodp"/>
+<<<<<<< HEAD
 
 <!-- head custom -->
 {{- partial "prepended_head.html" . }}
+=======
+>>>>>>> 2dfffb570842992bc257307f9cc6ea31a70c78fa
 
 <!-- Theme CSS -->
 <link rel="stylesheet" href="{{ "assets/style.css" | absURL }}">

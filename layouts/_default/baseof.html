@@ -5,6 +5,7 @@
       <title>{{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}{{ end }}</title>
     {{ end }}
 <<<<<<< HEAD
+<<<<<<< HEAD
     {{ partial "head.html" . }}
   </head>
   <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
@@ -21,6 +22,8 @@
       {{ end }}
     </div>
 =======
+=======
+>>>>>>> 2dfffb570842992bc257307f9cc6ea31a70c78fa
   </div>
   {{ block "footer" . }}
     {{ partial "footer.html" . }}
